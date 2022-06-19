@@ -252,7 +252,7 @@
                                     <outlet property="descriptionOfTheFolderLabel" destination="cf1-TZ-CjE" id="S7X-Xh-Hmq"/>
                                     <outlet property="emojiLabel" destination="MPV-UP-uKN" id="Rfk-Ez-Jq5"/>
                                     <outlet property="nameOfTheFolderLabel" destination="iL5-Pa-33p" id="XMF-jk-Yhw"/>
-                                    <segue destination="Ydk-Uc-Hto" kind="show" id="lMF-sm-fx6"/>
+                                    <segue destination="GCV-Tm-w0i" kind="show" id="lYJ-kv-wxy"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -491,9 +491,6 @@
             <point key="canvasLocation" x="1950.7246376811595" y="63.616071428571423"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="lMF-sm-fx6"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

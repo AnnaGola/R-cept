@@ -60,6 +60,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF2050D7285F923E00A2A1F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AFCFB8E22837E01300660080 /* RecepiesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF2050D8285F924A00A2A1F1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFCFB8DE2837DB8300660080 /* RecepieTableViewCell.swift */,
+				AFCFB8D62837C82300660080 /* NewRecepieTableViewController.swift */,
+				AFCFB8D22837C54A00660080 /* RecepiesTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF2050D9285F927200A2A1F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AFC4B47328576ECF00328197 /* Manager.swift */,
+				AFCFB8E02837DFA200660080 /* MenuModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF2050DA285F927F00A2A1F1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFCFB8D02837C4F600660080 /* MenuTableViewController.swift */,
+				AFCFB8D82837D5FC00660080 /* MenuTableViewCell.swift */,
+				AFCFB8D42837C80E00660080 /* NewFolderTableViewController.swift */,
+				AFCFB8BD2837C47C00660080 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF2050DB285F929600A2A1F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFCFB8BF2837C47C00660080 /* Main.storyboard */,
+				AFCFB8C72837C47D00660080 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF2050DD285F935100A2A1F1 /* Full recepie */ = {
+			isa = PBXGroup;
+			children = (
+				AF2050DF285F937E00A2A1F1 /* Controllers */,
+				AF2050DE285F937800A2A1F1 /* Model */,
+			);
+			path = "Full recepie";
+			sourceTree = "<group>";
+		};
+		AF2050DE285F937800A2A1F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF2050DF285F937E00A2A1F1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		AFCFB8AD2837C47C00660080 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +151,12 @@
 		AFCFB8B82837C47C00660080 /* R - concept */ = {
 			isa = PBXGroup;
 			children = (
+				AFCFB8C52837C47D00660080 /* Assets.xcassets */,
+				AFCFB8CA2837C47E00660080 /* Info.plist */,
 				AFCFB8DB2837D63F00660080 /* Delegate */,
 				AFCFB8DA2837D61E00660080 /* Menu */,
 				AFCFB8DD2837DB5D00660080 /* Recepies */,
-				AFCFB8C52837C47D00660080 /* Assets.xcassets */,
-				AFCFB8BF2837C47C00660080 /* Main.storyboard */,
-				AFCFB8C72837C47D00660080 /* LaunchScreen.storyboard */,
-				AFCFB8CA2837C47E00660080 /* Info.plist */,
+				AF2050DD285F935100A2A1F1 /* Full recepie */,
 			);
 			path = "R - concept";
 			sourceTree = "<group>";
@@ -95,12 +164,9 @@
 		AFCFB8DA2837D61E00660080 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				AFCFB8D02837C4F600660080 /* MenuTableViewController.swift */,
-				AFCFB8D82837D5FC00660080 /* MenuTableViewCell.swift */,
-				AFCFB8E02837DFA200660080 /* MenuModel.swift */,
-				AFCFB8D42837C80E00660080 /* NewFolderTableViewController.swift */,
-				AFC4B47328576ECF00328197 /* Manager.swift */,
-				AFCFB8BD2837C47C00660080 /* ViewController.swift */,
+				AF2050D9285F927200A2A1F1 /* Models */,
+				AF2050DB285F929600A2A1F1 /* Views */,
+				AF2050DA285F927F00A2A1F1 /* Controllers */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -117,10 +183,8 @@
 		AFCFB8DD2837DB5D00660080 /* Recepies */ = {
 			isa = PBXGroup;
 			children = (
-				AFCFB8D22837C54A00660080 /* RecepiesTableViewController.swift */,
-				AFCFB8DE2837DB8300660080 /* RecepieTableViewCell.swift */,
-				AFCFB8E22837E01300660080 /* RecepiesModel.swift */,
-				AFCFB8D62837C82300660080 /* NewRecepieTableViewController.swift */,
+				AF2050D7285F923E00A2A1F1 /* Models */,
+				AF2050D8285F924A00A2A1F1 /* Controllers */,
 			);
 			path = Recepies;
 			sourceTree = "<group>";
