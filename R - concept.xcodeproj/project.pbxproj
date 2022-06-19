@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFC4B47428576ECF00328197 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4B47328576ECF00328197 /* Manager.swift */; };
 		AFCFB8BA2837C47C00660080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFB8B92837C47C00660080 /* AppDelegate.swift */; };
 		AFCFB8BC2837C47C00660080 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFB8BB2837C47C00660080 /* SceneDelegate.swift */; };
 		AFCFB8BE2837C47C00660080 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFB8BD2837C47C00660080 /* ViewController.swift */; };
 		AFCFB8C12837C47C00660080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCFB8BF2837C47C00660080 /* Main.storyboard */; };
-		AFCFB8C42837C47C00660080 /* R___concept.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFCFB8C22837C47C00660080 /* R___concept.xcdatamodeld */; };
 		AFCFB8C62837C47D00660080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCFB8C52837C47D00660080 /* Assets.xcassets */; };
 		AFCFB8C92837C47D00660080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCFB8C72837C47D00660080 /* LaunchScreen.storyboard */; };
+		AFCFB8D12837C4F600660080 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFB8D02837C4F600660080 /* MenuTableViewController.swift */; };
+		AFCFB8D32837C54A00660080 /* RecepiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFB8D22837C54A00660080 /* RecepiesTableViewController.swift */; };
+		AFCFB8D52837C80E00660080 /* NewFolderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFB8D42837C80E00660080 /* NewFolderTableViewController.swift */; };
+		AFCFB8D72837C82300660080 /* NewRecepieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFB8D62837C82300660080 /* NewRecepieTableViewController.swift */; };
+		AFCFB8D92837D5FC00660080 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFB8D82837D5FC00660080 /* MenuTableViewCell.swift */; };
+		AFCFB8DF2837DB8300660080 /* RecepieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFB8DE2837DB8300660080 /* RecepieTableViewCell.swift */; };
+		AFCFB8E12837DFA200660080 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFB8E02837DFA200660080 /* MenuModel.swift */; };
+		AFCFB8E32837E01300660080 /* RecepiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFB8E22837E01300660080 /* RecepiesModel.swift */; };
+		DDB0B187DBA10CC3B72C6F11 /* Pods_R___concept.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE03D07DE9300E23DAADE78 /* Pods_R___concept.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		507049FEF6963862B9F76641 /* Pods-R - concept.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-R - concept.debug.xcconfig"; path = "Target Support Files/Pods-R - concept/Pods-R - concept.debug.xcconfig"; sourceTree = "<group>"; };
+		7EE03D07DE9300E23DAADE78 /* Pods_R___concept.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_R___concept.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D22CA17E49336F67E9B2AB /* Pods-R - concept.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-R - concept.release.xcconfig"; path = "Target Support Files/Pods-R - concept/Pods-R - concept.release.xcconfig"; sourceTree = "<group>"; };
+		AFC4B47328576ECF00328197 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		AFCFB8B62837C47C00660080 /* R - concept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R - concept.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFCFB8B92837C47C00660080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFCFB8BB2837C47C00660080 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AFCFB8BD2837C47C00660080 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFCFB8C02837C47C00660080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AFCFB8C32837C47C00660080 /* R___concept.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "R___concept.xcdatamodel"; sourceTree = "<group>"; };
 		AFCFB8C52837C47D00660080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFCFB8C82837C47D00660080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFCFB8CA2837C47E00660080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCFB8D02837C4F600660080 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		AFCFB8D22837C54A00660080 /* RecepiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepiesTableViewController.swift; sourceTree = "<group>"; };
+		AFCFB8D42837C80E00660080 /* NewFolderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFolderTableViewController.swift; sourceTree = "<group>"; };
+		AFCFB8D62837C82300660080 /* NewRecepieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecepieTableViewController.swift; sourceTree = "<group>"; };
+		AFCFB8D82837D5FC00660080 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		AFCFB8DE2837DB8300660080 /* RecepieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieTableViewCell.swift; sourceTree = "<group>"; };
+		AFCFB8E02837DFA200660080 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		AFCFB8E22837E01300660080 /* RecepiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepiesModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB0B187DBA10CC3B72C6F11 /* Pods_R___concept.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +65,8 @@
 			children = (
 				AFCFB8B82837C47C00660080 /* R - concept */,
 				AFCFB8B72837C47C00660080 /* Products */,
+				ED4A9BC74DEF6604501A2A5C /* Pods */,
+				C0551CBE70AE4526307B8EDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +81,65 @@
 		AFCFB8B82837C47C00660080 /* R - concept */ = {
 			isa = PBXGroup;
 			children = (
-				AFCFB8B92837C47C00660080 /* AppDelegate.swift */,
-				AFCFB8BB2837C47C00660080 /* SceneDelegate.swift */,
-				AFCFB8BD2837C47C00660080 /* ViewController.swift */,
-				AFCFB8BF2837C47C00660080 /* Main.storyboard */,
+				AFCFB8DB2837D63F00660080 /* Delegate */,
+				AFCFB8DA2837D61E00660080 /* Menu */,
+				AFCFB8DD2837DB5D00660080 /* Recepies */,
 				AFCFB8C52837C47D00660080 /* Assets.xcassets */,
+				AFCFB8BF2837C47C00660080 /* Main.storyboard */,
 				AFCFB8C72837C47D00660080 /* LaunchScreen.storyboard */,
 				AFCFB8CA2837C47E00660080 /* Info.plist */,
-				AFCFB8C22837C47C00660080 /* R___concept.xcdatamodeld */,
 			);
 			path = "R - concept";
+			sourceTree = "<group>";
+		};
+		AFCFB8DA2837D61E00660080 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				AFCFB8D02837C4F600660080 /* MenuTableViewController.swift */,
+				AFCFB8D82837D5FC00660080 /* MenuTableViewCell.swift */,
+				AFCFB8E02837DFA200660080 /* MenuModel.swift */,
+				AFCFB8D42837C80E00660080 /* NewFolderTableViewController.swift */,
+				AFC4B47328576ECF00328197 /* Manager.swift */,
+				AFCFB8BD2837C47C00660080 /* ViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		AFCFB8DB2837D63F00660080 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AFCFB8B92837C47C00660080 /* AppDelegate.swift */,
+				AFCFB8BB2837C47C00660080 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		AFCFB8DD2837DB5D00660080 /* Recepies */ = {
+			isa = PBXGroup;
+			children = (
+				AFCFB8D22837C54A00660080 /* RecepiesTableViewController.swift */,
+				AFCFB8DE2837DB8300660080 /* RecepieTableViewCell.swift */,
+				AFCFB8E22837E01300660080 /* RecepiesModel.swift */,
+				AFCFB8D62837C82300660080 /* NewRecepieTableViewController.swift */,
+			);
+			path = Recepies;
+			sourceTree = "<group>";
+		};
+		C0551CBE70AE4526307B8EDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EE03D07DE9300E23DAADE78 /* Pods_R___concept.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED4A9BC74DEF6604501A2A5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				507049FEF6963862B9F76641 /* Pods-R - concept.debug.xcconfig */,
+				92D22CA17E49336F67E9B2AB /* Pods-R - concept.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFCFB8CD2837C47E00660080 /* Build configuration list for PBXNativeTarget "R - concept" */;
 			buildPhases = (
+				5ED7FA746A0CED2914754856 /* [CP] Check Pods Manifest.lock */,
 				AFCFB8B22837C47C00660080 /* Sources */,
 				AFCFB8B32837C47C00660080 /* Frameworks */,
 				AFCFB8B42837C47C00660080 /* Resources */,
+				D42810B4144B09BF64F8E39A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +210,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5ED7FA746A0CED2914754856 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-R - concept-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D42810B4144B09BF64F8E39A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-R - concept/Pods-R - concept-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-R - concept/Pods-R - concept-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-R - concept/Pods-R - concept-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AFCFB8B22837C47C00660080 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -143,8 +259,16 @@
 			files = (
 				AFCFB8BE2837C47C00660080 /* ViewController.swift in Sources */,
 				AFCFB8BA2837C47C00660080 /* AppDelegate.swift in Sources */,
+				AFCFB8D52837C80E00660080 /* NewFolderTableViewController.swift in Sources */,
+				AFCFB8E32837E01300660080 /* RecepiesModel.swift in Sources */,
+				AFCFB8DF2837DB8300660080 /* RecepieTableViewCell.swift in Sources */,
+				AFCFB8D12837C4F600660080 /* MenuTableViewController.swift in Sources */,
+				AFCFB8D72837C82300660080 /* NewRecepieTableViewController.swift in Sources */,
+				AFC4B47428576ECF00328197 /* Manager.swift in Sources */,
+				AFCFB8D92837D5FC00660080 /* MenuTableViewCell.swift in Sources */,
+				AFCFB8E12837DFA200660080 /* MenuModel.swift in Sources */,
 				AFCFB8BC2837C47C00660080 /* SceneDelegate.swift in Sources */,
-				AFCFB8C42837C47C00660080 /* R___concept.xcdatamodeld in Sources */,
+				AFCFB8D32837C54A00660080 /* RecepiesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +410,7 @@
 		};
 		AFCFB8CE2837C47E00660080 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 507049FEF6963862B9F76641 /* Pods-R - concept.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,8 +422,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,12 +435,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AFCFB8CF2837C47E00660080 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D22CA17E49336F67E9B2AB /* Pods-R - concept.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,8 +453,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,7 +466,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -362,19 +492,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		AFCFB8C22837C47C00660080 /* R___concept.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				AFCFB8C32837C47C00660080 /* R___concept.xcdatamodel */,
-			);
-			currentVersion = AFCFB8C32837C47C00660080 /* R___concept.xcdatamodel */;
-			path = "R___concept.xcdatamodeld";
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = AFCFB8AE2837C47C00660080 /* Project object */;
 }
